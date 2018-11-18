@@ -4,7 +4,7 @@ import java.util.function.Function;
 
 public class Main {
 
-    // Super nice implementation: Runtime O(n)    Memory O(1)
+    // Super nice implementation: Runtime O(n)    Memory O(n)
     static long findHowMuchCentsToSpend(int n, int L, long[] c) {
         int filled = 0;
         long totalCost = 0;
